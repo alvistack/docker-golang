@@ -1,6 +1,6 @@
 # Docker Image Packaging for Go
 
-[![Travis](https://img.shields.io/travis/alvistack/docker-golang.svg)](https://travis-ci.org/alvistack/docker-golang)
+[![Travis](https://img.shields.io/travis/com/alvistack/docker-golang.svg)](https://travis-ci.com/alvistack/docker-golang)
 [![GitHub release](https://img.shields.io/github/release/alvistack/docker-golang.svg)](https://github.com/alvistack/docker-golang/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/docker-golang.svg)](https://github.com/alvistack/docker-golang/blob/master/LICENSE)
 [![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/golang.svg)](https://hub.docker.com/r/alvistack/golang/)
@@ -49,7 +49,7 @@ The `latest` tag matches the most recent [GitHub Release](https://github.com/alv
 
 ### `alvistack/golang:<version>`
 
-The version tags are rolling release rebuild by [Travis](https://travis-ci.org/alvistack/docker-golang) in weekly basis. Thus using these tags will ensure you are running the latest packages provided by the base image project.
+The version tags are rolling release rebuild by [Travis](https://travis-ci.com/alvistack/docker-golang) in weekly basis. Thus using these tags will ensure you are running the latest packages provided by the base image project.
 
 ## License
 
