@@ -4,11 +4,8 @@
 
 ### Major Changes
 
-## 1.14.2-4alvistack1 - 2020-04-11
-
-### Major Changes
-
-  - Provision with systemd support
+  - Rename `post_tasks.yml` as `side_effect.yml`
+  - Upgrade base image to Ubuntu 20.04
 
 ## 1.14.0-4alvistack1 - 2020-03-06
 
