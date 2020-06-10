@@ -1,9 +1,10 @@
 # Docker Image Packaging for Go
 
-## 1.14.2-XalvistackY - TBC
+## 1.14.4-XalvistackY - TBC
 
 ### Major Changes
 
+  - Revamp `create`, `side_effect`, `verify` and `destroy` logic
   - Replace `tini` with `catatonit`
   - Rename `post_tasks.yml` as `side_effect.yml`
   - Upgrade base image to Ubuntu 20.04
