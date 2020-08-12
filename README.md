@@ -11,8 +11,8 @@ Learn more about Go: <https://golang.org/>
 
 ## Supported Tags and Respective `Dockerfile` Links
 
-  - [`1.14`, `latest`](https://github.com/alvistack/docker-golang/blob/master/molecule/1.14/Dockerfile.j2)
-  - [`1.13`](https://github.com/alvistack/docker-golang/blob/master/molecule/1.13/Dockerfile.j2)
+  - [`1.15`, `latest`](https://github.com/alvistack/docker-golang/blob/master/molecule/1.15/Dockerfile.j2)
+  - [`1.14`](https://github.com/alvistack/docker-golang/blob/master/molecule/1.14/Dockerfile.j2)
 
 ## Overview
 
