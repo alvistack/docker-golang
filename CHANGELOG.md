@@ -1,6 +1,10 @@
 # Docker Image Packaging for Go
 
-## 1.15.1-XalvistackY - TBC
+## 1.15.2-XalvistackY - TBC
+
+### Major Changes
+
+## 1.15.2-4alvistack2 - 2020-10-14
 
 ### Major Changes
 
