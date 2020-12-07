@@ -11,8 +11,8 @@ Learn more about Go: <https://golang.org/>
 
 ## Supported Tags and Respective Packer Template Links
 
-  - [`1.15`, `latest`](https://github.com/alvistack/docker-golang/blob/master/packer/1.15/packer.json)
-  - [`1.14`](https://github.com/alvistack/docker-golang/blob/master/packer/1.14/packer.json)
+  - [`1.15`, `latest`](https://github.com/alvistack/docker-golang/blob/master/packer/docker-1.15/packer.json)
+  - [`1.14`](https://github.com/alvistack/docker-golang/blob/master/packer/docker-1.14/packer.json)
 
 ## Overview
 
