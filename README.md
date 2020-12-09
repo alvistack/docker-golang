@@ -1,6 +1,6 @@
 # Docker Image Packaging for Go
 
-[![Travis](https://img.shields.io/travis/com/alvistack/docker-golang.svg)](https://travis-ci.com/alvistack/docker-golang)
+[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/docker-golang/master)](https://gitlab.com/alvistack/docker-golang/-/pipelines)
 [![GitHub release](https://img.shields.io/github/release/alvistack/docker-golang.svg)](https://github.com/alvistack/docker-golang/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/docker-golang.svg)](https://github.com/alvistack/docker-golang/blob/master/LICENSE)
 [![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/golang.svg)](https://hub.docker.com/r/alvistack/golang/)
