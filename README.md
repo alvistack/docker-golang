@@ -1,9 +1,9 @@
 # Docker Image Packaging for Go
 
-[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/docker-golang/master)](https://gitlab.com/alvistack/docker-golang/-/pipelines)
+[![GitLab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/docker-golang/master)](https://gitlab.com/alvistack/docker-golang/-/pipelines)
 [![GitHub release](https://img.shields.io/github/release/alvistack/docker-golang.svg)](https://github.com/alvistack/docker-golang/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/docker-golang.svg)](https://github.com/alvistack/docker-golang/blob/master/LICENSE)
-[![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/golang.svg)](https://hub.docker.com/r/alvistack/golang/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/golang-1.15.svg)](https://hub.docker.com/r/alvistack/golang-1.15)
 
 Go (a.k.a., Golang) is a programming language first developed at Google. It is a statically-typed language with syntax loosely derived from C, but with additional features such as garbage collection, type safety, some dynamic-typing capabilities, additional built-in types (e.g., variable-length arrays and key-value maps), and a large standard library.
 
@@ -11,8 +11,10 @@ Learn more about Go: <https://golang.org/>
 
 ## Supported Tags and Respective Packer Template Links
 
-  - [`1.15`, `latest`](https://github.com/alvistack/docker-golang/blob/master/packer/docker-1.15/packer.json)
-  - [`1.14`](https://github.com/alvistack/docker-golang/blob/master/packer/docker-1.14/packer.json)
+  - [`alvistack/golang-1.15`](https://hub.docker.com/r/alvistack/golang-1.15)
+      - [`packer/docker-1.15/packer.json`](https://github.com/alvistack/docker-golang/blob/master/packer/docker-1.15/packer.json)
+  - [`alvistack/golang-1.14`](https://hub.docker.com/r/alvistack/golang-1.14)
+      - [`packer/docker-1.14/packer.json`](https://github.com/alvistack/docker-golang/blob/master/packer/docker-1.14/packer.json)
 
 ## Overview
 
@@ -42,13 +44,13 @@ Start Go:
 
 ## Versioning
 
-### `alvistack/golang:latest`
+### `YYYYMMDD.Y.Z`
 
-The `latest` tag matches the most recent [GitHub Release](https://github.com/alvistack/docker-golang/releases) of this repository. Thus using `alvistack/golang:latest` or `alvistack/golang` will ensure you are running the most up to date stable version of this image.
+Release tags could be find from [GitHub Release](https://github.com/alvistack/docker-golang/releases) of this repository. Thus using these tags will ensure you are running the most up to date stable version of this image.
 
-### `alvistack/golang:<version>`
+### `YYYYMMDD.0.0`
 
-The version tags are rolling release rebuild by [Travis](https://travis-ci.com/alvistack/docker-golang) in weekly basis. Thus using these tags will ensure you are running the latest packages provided by the base image project.
+Version tags ended with `.0.0` are rolling release rebuild by [GitLab pipeline](https://gitlab.com/alvistack/docker-golang/-/pipelines) in weekly basis. Thus using these tags will ensure you are running the latest packages provided by the base image project.
 
 ## License
 
