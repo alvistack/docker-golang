@@ -3,7 +3,7 @@
 [![GitLab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/docker-golang/master)](https://gitlab.com/alvistack/docker-golang/-/pipelines)
 [![GitHub release](https://img.shields.io/github/release/alvistack/docker-golang.svg)](https://github.com/alvistack/docker-golang/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/docker-golang.svg)](https://github.com/alvistack/docker-golang/blob/master/LICENSE)
-[![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/golang-1.15.svg)](https://hub.docker.com/r/alvistack/golang-1.15)
+[![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/golang-1.16.svg)](https://hub.docker.com/r/alvistack/golang-1.16)
 
 Go (a.k.a., Golang) is a programming language first developed at Google. It is a statically-typed language with syntax loosely derived from C, but with additional features such as garbage collection, type safety, some dynamic-typing capabilities, additional built-in types (e.g., variable-length arrays and key-value maps), and a large standard library.
 
@@ -11,10 +11,10 @@ Learn more about Go: <https://golang.org/>
 
 ## Supported Tags and Respective Packer Template Links
 
+  - [`alvistack/golang-1.16`](https://hub.docker.com/r/alvistack/golang-1.16)
+      - [`packer/docker-1.16/packer.json`](https://github.com/alvistack/docker-golang/blob/master/packer/docker-1.16/packer.json)
   - [`alvistack/golang-1.15`](https://hub.docker.com/r/alvistack/golang-1.15)
       - [`packer/docker-1.15/packer.json`](https://github.com/alvistack/docker-golang/blob/master/packer/docker-1.15/packer.json)
-  - [`alvistack/golang-1.14`](https://hub.docker.com/r/alvistack/golang-1.14)
-      - [`packer/docker-1.14/packer.json`](https://github.com/alvistack/docker-golang/blob/master/packer/docker-1.14/packer.json)
 
 ## Overview
 
