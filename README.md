@@ -32,14 +32,14 @@ For the `VOLUME` directory that is used to store the repository data (amongst ot
 Start Go:
 
     # Pull latest image
-    docker pull alvistack/golang
+    docker pull alvistack/golang-1.16
     
     # Run as detach
     docker run \
         -itd \
         --rm \
         --name golang \
-        alvistack/golang \
+        alvistack/golang-1.16 \
         go version
 
 ## Versioning
