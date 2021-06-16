@@ -4,9 +4,7 @@
 [![GitHub release](https://img.shields.io/github/release/alvistack/docker-golang.svg)](https://github.com/alvistack/docker-golang/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/docker-golang.svg)](https://github.com/alvistack/docker-golang/blob/master/LICENSE)
 [![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/golang-1.16.svg)](https://hub.docker.com/r/alvistack/golang-1.16)
-
 Go (a.k.a., Golang) is a programming language first developed at Google. It is a statically-typed language with syntax loosely derived from C, but with additional features such as garbage collection, type safety, some dynamic-typing capabilities, additional built-in types (e.g., variable-length arrays and key-value maps), and a large standard library.
-
 Learn more about Go: <https://golang.org/>
 
 ## Supported Tags and Respective Packer Template Links
@@ -19,7 +17,6 @@ Learn more about Go: <https://golang.org/>
 ## Overview
 
 This Docker container makes it easy to get an instance of Go up and running.
-
 Based on [Official Ubuntu Docker Image](https://hub.docker.com/_/ubuntu/) with some minor hack:
 
   - Packaging by Packer Docker builder and Ansible provisioner in single layer
@@ -28,19 +25,16 @@ Based on [Official Ubuntu Docker Image](https://hub.docker.com/_/ubuntu/) with s
 ### Quick Start
 
 For the `VOLUME` directory that is used to store the repository data (amongst other things) we recommend mounting a host directory as a [data volume](https://docs.docker.com/engine/tutorials/dockervolumes/#/data-volumes), or via a named volume if using a docker version \>= 1.9.
-
 Start Go:
-
-    # Pull latest image
-    docker pull alvistack/golang-1.16
-    
-    # Run as detach
-    docker run \
-        -itd \
-        --rm \
-        --name golang \
-        alvistack/golang-1.16 \
-        go version
+\# Pull latest image
+docker pull alvistack/golang-1.16
+\# Run as detach
+docker run   
+\-itd   
+\--rm   
+\--name golang   
+alvistack/golang-1.16   
+go version
 
 ## Versioning
 
