@@ -154,28 +154,3 @@ deploy:docker-1.16:
     _PACKER_BUILDER_VERSION: "1.16"
   needs:
     - build:docker-1.16
-
-build:docker-1.15:
-  <<: *job-packer-build
-  stage: build
-  cache:
-    key: "$CI_PIPELINE_ID-docker-1.15"
-    paths:
-      - packer/*/output-docker
-  variables:
-    _PACKER_BUILDER_PROVIDER: "docker"
-    _PACKER_BUILDER_VERSION: "1.15"
-
-deploy:docker-1.15:
-  <<: *job-docker-push
-  stage: deploy
-  cache:
-    key: "$CI_PIPELINE_ID-docker-1.15"
-    paths:
-      - packer/*/output-docker
-    policy: pull
-  variables:
-    _PACKER_BUILDER_PROVIDER: "docker"
-    _PACKER_BUILDER_VERSION: "1.15"
-  needs:
-    - build:docker-1.15
