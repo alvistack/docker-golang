@@ -17,8 +17,6 @@ Learn more about Go: <https://golang.org/>
       - [`packer/docker-1.17/packer.json`](https://github.com/alvistack/docker-golang/blob/master/packer/docker-1.17/packer.json)
   - [`alvistack/golang-1.16`](https://hub.docker.com/r/alvistack/golang-1.16)
       - [`packer/docker-1.16/packer.json`](https://github.com/alvistack/docker-golang/blob/master/packer/docker-1.16/packer.json)
-  - [`alvistack/golang-1.15`](https://hub.docker.com/r/alvistack/golang-1.15)
-      - [`packer/docker-1.15/packer.json`](https://github.com/alvistack/docker-golang/blob/master/packer/docker-1.15/packer.json)
 
 ## Overview
 
