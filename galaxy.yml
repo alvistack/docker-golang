@@ -18,9 +18,10 @@ namespace: alvistack
 name: docker-golang
 description: Docker Image Packaging for Go
 
-version: VERSION
+version: 0.0.0
 readme: README.md
-license: Apache-2.0
+license:
+  - Apache-2.0
 
 repository: https://github.com/alvistack/docker-golang
 documentation: https://github.com/alvistack/docker-golang
