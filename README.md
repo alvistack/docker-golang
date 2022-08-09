@@ -5,7 +5,7 @@
 [![GitLab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/docker-golang/master)](https://gitlab.com/alvistack/docker-golang/-/pipelines)
 [![GitHub tag](https://img.shields.io/github/tag/alvistack/docker-golang.svg)](https://github.com/alvistack/docker-golang/tags)
 [![GitHub license](https://img.shields.io/github/license/alvistack/docker-golang.svg)](https://github.com/alvistack/docker-golang/blob/master/LICENSE)
-[![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/golang-1.18.svg)](https://hub.docker.com/r/alvistack/golang-1.18)
+[![Docker Pulls](https://img.shields.io/docker/pulls/alvistack/golang-1.19.svg)](https://hub.docker.com/r/alvistack/golang-1.19)
 
 Go (a.k.a., Golang) is a programming language first developed at Google. It is a statically-typed language with syntax loosely derived from C, but with additional features such as garbage collection, type safety, some dynamic-typing capabilities, additional built-in types (e.g., variable-length arrays and key-value maps), and a large standard library.
 
@@ -13,6 +13,8 @@ Learn more about Go: <https://golang.org/>
 
 ## Supported Tags and Respective Packer Template Links
 
+  - [`alvistack/golang-1.19`](https://hub.docker.com/r/alvistack/golang-1.19)
+      - [`packer/docker-1.19/packer.json`](https://github.com/alvistack/docker-golang/blob/master/packer/docker-1.19/packer.json)
   - [`alvistack/golang-1.18`](https://hub.docker.com/r/alvistack/golang-1.18)
       - [`packer/docker-1.18/packer.json`](https://github.com/alvistack/docker-golang/blob/master/packer/docker-1.18/packer.json)
   - [`alvistack/golang-1.17`](https://hub.docker.com/r/alvistack/golang-1.17)
@@ -34,14 +36,14 @@ For the `VOLUME` directory that is used to store the repository data (amongst ot
 Start Go:
 
     # Pull latest image
-    docker pull alvistack/golang-1.18
+    docker pull alvistack/golang-1.19
     
     # Run as detach
     docker run \
         -itd \
         --rm \
         --name golang \
-        alvistack/golang-1.18 \
+        alvistack/golang-1.19 \
         go version
 
 ## Versioning
