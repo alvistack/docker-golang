@@ -15,7 +15,7 @@
 # limitations under the License.
 
 namespace: alvistack
-name: docker-golang
+name: golang
 description: Docker Image Packaging for Go
 
 version: 0.0.0
